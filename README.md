@@ -1,1 +1,1 @@
-# exercises
+# This repo is to solve exercises from leetcode, hackerank and others
