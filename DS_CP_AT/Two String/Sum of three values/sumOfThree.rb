@@ -1,3 +1,9 @@
+=begin
+  Given an array of integers, nums, and an integer value, target, determine if there are any
+  three integers in nums whose sum equals the target. Return TRUE if three such integers are
+  found in the array. Otherwise, return FALSE.
+=end
+
 def findSumOfThree(nums, target)
   sortedNums = nums.sort
 
