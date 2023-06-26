@@ -40,7 +40,7 @@ const isStrictlyPalindromic = (n) => {
 };
 
 const isPalindrome = (val) => {
-  val.join("") === val.reverse().join("") ? true : false;
+  return val.join("") === val.reverse().join("") ? true : false;
 };
 
 console.log(isStrictlyPalindromic(9));
