@@ -1,13 +1,3 @@
-const arrayWordsChar = (ar) => {
-  const finalArray = []
-
-  ar.forEach(word => {
-    finalArray.push(word.split(""))
-  });
-
-  return finalArray
-}
-
 const reverseWords = (s) => {
   const sAr = s.split(" ")
   const reverseWords = []
