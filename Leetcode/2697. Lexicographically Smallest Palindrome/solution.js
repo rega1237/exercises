@@ -14,12 +14,10 @@ const makeSmallestPalindrome = (s) => {
       else{
         stringPal[right] = charLeft
       }
-      left ++
-      right --
-    } else {
-      left ++
-      right --
     }
+
+    left ++
+    right --
   }
 
   return stringPal.join("")

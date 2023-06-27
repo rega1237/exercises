@@ -8,20 +8,19 @@ def make_smallest_palindrome(s)
     charLeft = stringPal[left]
     charRight = stringPal[right]
 
-    if left != right
+    if charLeft != charRight
       if charLeft > charRight
         stringPal[left] = charRight
-        left += 1
-        right -= 1
       else
         stringPal[right] = charLeft
-        left += 1
-        right -= 1
       end
     end
+
+    left += 1
+    right -= 1
   end
 
   stringPal
 end
 
-puts make_smallest_palindrome("egcfe") "efcfe"
+puts make_smallest_palindrome("egcfe") # "efcfe"
